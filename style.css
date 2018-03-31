@@ -1,0 +1,762 @@
+/* font */
+
+@font-face {
+    font-family: 'Titre';
+    src: url(font/shadows-into-light.ttf);
+}
+@font-face {
+    font-family: 'one';
+    src: url(font/bernard_condensed.ttf);
+}
+
+@font-face {
+    font-family: 'three';
+    src: url(font/segoe.ttf);
+}
+@font-face {
+    font-family: 'four';
+    src: url(font/librebaskerville-bold.ttf)
+}
+@font-face {
+    font-family: 'five';
+    src: url(font/amaticsc-bold.ttf)
+}
+@font-face {
+    font-family: 'six';
+    src: url(font/kaushanscript-regular.ttf)
+}
+@font-face {
+    font-family: 'eight';
+    src: url(font/abrilfatface.ttf)
+}
+@font-face {
+    font-family: 'nine';
+    src: url(font/opensans-cond-light.ttf)
+}
+@font-face {
+    font-family: 'ten';
+    src: url(font/nanumpenscript.ttf)
+}
+@font-face {
+    font-family: 'eleven';
+    src: url(font/vollkorn-semibold.ttf)
+}
+@font-face {
+    font-family: "twelve";
+    src: url(font/high-tide.ttf)
+}
+@font-face {
+    font-family: "thirteen";
+    src: url(font/lora-bold.ttf)
+}
+@font-face {
+    font-family: "fourteen";
+    src: url(font/shine-bright.ttf)
+}
+@font-face {
+    font-family: "sixteen";
+    src: url(font/make-magic-happen.ttf)
+}
+@font-face {
+    font-family: "seventeen";
+    src: url(font/farewell-angelina.ttf)
+}
+@font-face {
+    font-family: "eighteen";
+    src: url(font/thgradecursive.ttf)
+}
+@font-face {
+    font-family: "twenty";
+    src: url(font/sindbad.ttf)
+}
+@font-face {
+    font-family: "twentyone";
+    src: url(font/beauty-and-the-beast.ttf)
+}
+@font-face {
+    font-family: "twentytwo";
+    src: url(font/italian-breakfast.ttf)
+}
+@font-face {
+    font-family: "twentythree";
+    src: url(font/gabrwffr.ttf)
+}
+
+/* general */
+
+body {
+    background-image: url(christmas-snow-wallpaper.jpg);
+    background-attachment: fixed;
+}
+
+header {
+    background-color: rgba(0,4,129,0.5); 
+    padding: 25px 50px;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+}
+
+h1 {
+    font-family: 'Titre';
+    font-size: 50px;
+    margin: 0px;
+}
+
+h2 {
+    font-family:'Titre' ;
+    font-size: 30px;
+    display: inline; flex-wrap: wrap;
+}
+
+img {
+    display: inline-block;
+   margin-left: 20px; 
+}
+
+#title {
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+main {
+    display:flex; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: stretch;
+    padding: 20px 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* cases */
+
+#one {
+    line-height: 300px; 
+    width:300px;
+    display: inline-block;
+    background-color: aliceblue;
+    margin: 10px;
+    vertical-align: middle;
+    text-align: center;
+    font-family: 'one';
+    color: darkblue;
+    font-size: 60px;  
+}
+#one:hover {
+    background-color: antiquewhite;
+    color: darkred;
+}
+
+#two {
+    height: 200px;
+    width:200px;
+    display: inline-block;
+    background-color: aliceblue;
+    margin: 10px;
+    vertical-align: middle;
+    text-align: center;
+    color: darkblue;
+    font-size: 60px;
+}
+
+@keyframes turning {
+    from {transform: rotate(0deg)}
+    to {transform: rotate(360deg)}
+}
+
+.two-img {
+    margin-left: 0;
+    margin-top: 20px;
+}
+
+.two-img:hover {
+    animation-name: turning;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    filter: saturate(7);
+}
+
+#three {
+    line-height: 254px;
+    width:200px;
+    display: inline-block;
+    background-color: aliceblue;
+    margin: 10px;
+    vertical-align: middle;
+    text-align: center;
+    font-family: 'three';
+    color: darkblue;
+    font-size: 80px;
+}
+
+.three-border{
+    border: 3px dotted darkblue;
+    margin: 20px;
+}
+
+.three-border:hover {
+   color: darkred;
+    border: 3px dotted darkred;
+}
+
+#four {
+    line-height: 116px;
+    width:300px;
+    display: inline-block;
+    background-color: aliceblue;
+    margin: 10px;
+    vertical-align: middle;
+    text-align: center;
+    font-family: 'four';
+    color: darkblue;
+    font-size: 60px;
+}
+
+.four-border {
+    border: 3px solid darkblue;
+    margin: 40px 90px;
+    border-radius: 60px; 
+}
+
+.four-border:hover {   
+    background-color: darkblue;
+    color: white;
+}
+
+#five {
+    line-height: 300px;
+    width:200px;
+    display: inline-block;
+    background-color: aliceblue;
+    margin: -90px 10px 10px 10px;
+    vertical-align: middle;
+    text-align: center;
+    font-family: 'five';
+    color: darkblue;
+    font-size: 60px;
+}
+
+#five:hover {
+    font-size: 80px;
+    color: darkred;
+}
+
+@media only screen and (min-width: 1115px) {
+    #five {margin: 10px;}
+}
+@media only screen and (max-width: 790px) {
+    #five {margin: 10px;}
+}
+
+#six {
+    line-height: 200px;
+    width:200px;
+    display: inline-block;
+    background-color: aliceblue;
+    margin: 10px;
+    vertical-align: middle;
+    text-align: center;
+    font-family: 'six';
+    color: darkblue;
+    font-size: 50px;
+}
+
+#six:hover {
+    color: darkred;
+    line-height: 194px;
+    width: 200px;
+    background-color: antiquewhite;
+}
+
+.six-border:hover {
+    border: 3px solid darkred;
+}
+
+#seven {
+    height: 200px;
+    width:300px;
+    display: inline-block;
+    background-color: aliceblue;
+    margin: 10px;
+    vertical-align: middle;
+    text-align: center;
+    color: darkblue;
+    font-size: 50px;
+}
+
+.seven-img {
+    margin-top: 8px;
+    margin-left: 0px;
+}
+
+@keyframes balance {
+    0% {transform: rotate(0deg)}
+    25% {transform: rotate(-50deg)}
+    50% {transform: rotate(0deg)}
+    75% {transform: rotate(50deg)}
+    100% {transform: rotate(0deg)}
+}
+
+.seven-img:hover {
+    animation-name: balance;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    filter: saturate(7);
+}
+
+#eight {
+    line-height: 200px;
+    width:200px;
+    display: inline-block;
+    background-color: aliceblue;
+    margin: 10px;
+    vertical-align: middle;
+    text-align: center;
+    font-family: 'eight';
+    color: darkblue;
+    font-size: 80px;
+}
+
+#eight:hover {
+    background-color: darkblue;
+    color: white;
+}
+
+#nine {
+    line-height: 220px;
+    width:200px;
+    display: inline-block;
+    background-color: aliceblue;
+    margin: 10px;
+    vertical-align: middle;
+    text-align: center;
+    font-family: 'nine';
+    color: darkblue;
+    font-size: 70px;
+}
+
+.nine-border {
+    border: 3px double darkblue;
+    margin: 40px;
+}
+
+.nine-border:hover {
+    background-color: antiquewhite;
+}
+
+#ten {
+    line-height: 300px;
+    width:300px;
+    display: inline-block;
+    background-color: aliceblue;
+    margin: -95px 10px 10px 10px;
+    vertical-align: middle;
+    text-align: center;
+    font-family: 'ten';
+    color: darkblue;
+    font-size: 80px;
+}
+
+#ten:hover {
+    color: white;
+    background-color: darkblue;
+    text-shadow: 
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px antiquewhite,
+    0 0 80px antiquewhite,
+    0 0 90px antiquewhite,
+    0 0 100px antiquewhite,
+    0 0 120px antiquewhite,
+    0 0 150px antiquewhite,
+     0 0 180px antiquewhite;  
+}
+
+@media only screen and (min-width: 1115px) {
+    #ten {margin: 10px;}
+}
+@media only screen and (max-width: 790px) {
+    #ten {margin: 10px}
+}
+
+#eleven {
+    line-height: 130px;
+    width:200px;
+    display: inline-block;
+    background-color: aliceblue;
+    margin: -95px 10px 10px 10px;
+    vertical-align: middle;
+    font-family: 'eleven';
+    text-align: center;
+    color: darkblue;
+    font-size: 50px;
+}
+
+.eleven-border {
+    border: 5px solid transparent;
+    margin: 80px 30px ;
+    border-radius: 120px;
+}
+
+@keyframes border-color {
+    from { border-color: darkblue;}
+    to { border-color: darkred;}
+}
+@keyframes text-color {
+    from { color: darkblue;}
+    to { color:darkred;}
+}
+
+#eleven:hover {
+    animation: text-color 2s infinite;
+}
+.eleven-border:hover {
+    animation: border-color 2s infinite;
+}
+
+@media only screen and (min-width: 1115px) {
+    #eleven {margin: 10px;}
+}
+@media only screen and (max-width: 790px) {
+    #eleven {margin: 10px}
+}
+
+#twelve {
+    line-height: 196px;
+    width:200px;
+    display: inline-block;
+    background-color: aliceblue;
+    margin: 10px;
+    vertical-align: middle;
+    text-align: center;
+    font-family: 'twelve';
+    color: darkblue;
+    font-size: 50px;
+}
+
+@keyframes gradient-bckg {
+    0% {background: linear-gradient(to bottom right, aliceblue, darkblue);}
+    40% {background: linear-gradient(to bottom right, antiquewhite, aliceblue);}
+    70% {background: linear-gradient(to bottom right, darkred, antiquewhite);}
+    100% {background: linear-gradient(to bottom right, darkblue, darkred);}
+}
+
+#twelve:hover {
+    animation: gradient-bckg 1s infinite;
+}
+
+#thirteen {
+    line-height: 200px;
+    width:300px;
+    display: inline-block;
+    background-color: aliceblue;
+    margin: 10px;
+    vertical-align: middle;
+    text-align: center;
+    font-family: 'thirteen';
+    color: darkblue;
+    font-size: 60px;
+}
+
+#thirteen:hover {
+    text-shadow: 0px 0px 5px antiquewhite, 2px 2px 2px darkred;
+}
+
+#fourteen {
+    line-height: 200px;
+    width:200px;
+    display: inline-block;
+    background-color: aliceblue;
+    margin: 10px;
+    vertical-align: middle;
+    text-align: center;
+    font-family: 'fourteen';
+    color: darkblue;
+    font-size: 50px;
+}
+
+#fourteen:hover {
+    text-transform: uppercase;
+}
+
+#fiveteen {
+    height: 300px;
+    width:200px;
+    display: inline-block;
+    background-color: aliceblue;
+    margin: 10px;
+    vertical-align: middle;
+    text-align: center;
+    font-family: 'twelve';
+    color: darkblue;
+    font-size: 50px;
+}
+
+.fiveteen-img {
+    margin-top: 40px;
+    margin-left: 0px;
+}
+
+@keyframes go-down {
+    0% {margin-top: 40px;}
+    50% {margin-top: 80px;}
+    100% {margin-top: 40px;}
+}
+
+.fiveteen-img:hover {
+    animation: go-down 2s infinite;
+    filter: saturate(7);
+}
+
+#sixteen {
+    line-height: 135px;
+    width: 300px;
+    display: inline-block;
+    background-color: aliceblue;
+    margin: -90px 10px 10px 10px;
+    vertical-align: middle;
+    text-align: center;
+    font-family: 'sixteen';
+    color: darkblue;
+    font-size: 60px;
+}
+
+.sixteen-border {
+    border: 3px dashed darkblue;
+    margin: 30px 60px;
+}
+
+.sixteen-border:hover {
+    border: 8px ridge antiquewhite;
+    margin: 25px 60px;
+}
+
+@media only screen and (min-width: 1115px) {
+    #sixteen {margin: 10px;}
+}
+@media only screen and (max-width: 790px) {
+    #sixteen {margin: 10px}
+}
+
+#seventeen {
+    line-height: 176px;
+    width:200px;
+    display: inline-block;
+    background-color: aliceblue;
+    margin: -90px 10px 10px 10px;
+    vertical-align: middle;
+    text-align: center;
+    font-family: 'seventeen';
+    color: darkblue;
+    font-size: 80px;
+}
+
+.seventeen-border {
+    border: 2px solid transparent;
+    margin: 60px 20px;
+}
+
+.seventeen-border:hover {
+    background-color: darkblue;
+    color: white;
+}
+
+@media only screen and (min-width: 1115px) {
+    #seventeen {margin: 10px;}
+}
+@media only screen and (max-width: 790px) {
+    #seventeen {margin: 10px}
+}
+
+#eighteen {
+    line-height: 200px;
+    width:200px;
+    display: inline-block;
+    background-color: aliceblue;
+    margin: 10px;
+    vertical-align: middle;
+    text-align: center;
+    font-family: 'eighteen';
+    color: darkblue;
+    font-size: 40px;
+}
+
+#eighteen:hover {
+    background-color: rgba(240, 240, 255, 0.8);
+    color: darkred;
+    font-weight: 900;
+}
+
+#nineteen {
+    height: 300px;
+    width:300px;
+    display: inline-block;
+    background-color: aliceblue;
+    margin: -90px 10px 10px 10px;
+    vertical-align: middle;
+    text-align: center;
+    font-family: 'twelve';
+    color: darkblue;
+    font-size: 50px;
+}
+
+.nineteen-img {
+    margin-top: 30px;
+    margin-left: -10px;
+}
+
+@keyframes growing {
+    from {transform: scale(1, 1);}
+    to {transform: scale(1.2, 1.2);}
+}
+
+.nineteen-img:hover {
+    animation: growing 1s infinite;
+    filter: saturate(7);
+}
+
+@media only screen and (min-width: 1115px) {
+    #nineteen {margin: 10px;}
+}
+@media only screen and (max-width: 790px) {
+    #nineteen {margin: 10px}
+}
+
+#twenty {
+    line-height: 300px;
+    width:200px;
+    display: inline-block;
+    background-color: aliceblue;
+    margin: 10px;
+    vertical-align: middle;
+    text-align: center;
+    font-family: 'twenty';
+    color: darkblue;
+    font-size: 65px;
+}
+
+@keyframes blink {
+    from {color: transparent;}
+    to {color: darkred;}
+}
+
+#twenty:hover {
+    animation: blink 1s infinite;
+    background-color: antiquewhite;
+}
+
+#twentyone {
+    line-height: 200px;
+    width:200px;
+    display: inline-block;
+    background-color: aliceblue;
+    margin: 10px;
+    vertical-align: middle;
+    text-align: center;
+    font-family: 'twentyone';
+    color: darkblue;
+    font-size: 30px;
+}
+
+#twentyone:hover {
+    font-size: 20px;
+}
+
+#twentytwo {
+    line-height: 172px;
+    width:300px;
+    display: inline-block;
+    background-color: aliceblue;
+    margin: -90px 10px 10px 10px;
+    vertical-align: middle;
+    text-align: center;
+    font-family: 'twentytwo';
+    color: darkblue;
+    font-size: 80px;
+}
+
+.twentytwo-border {
+    border: 4px outset darkblue;
+    margin: 60px 60px;
+    border-radius: 120px;
+}
+
+.twentytwo-border:hover {
+    border: 4px inset darkblue;
+    background-color: antiquewhite;
+}
+
+@media only screen and (min-width: 1115px) {
+    #twentytwo {margin: 10px;}
+}
+@media only screen and (max-width: 790px) {
+    #twentytwo {margin: 10px}
+}
+
+#twentythree {
+    line-height: 200px;
+    width:200px;
+    display: inline-block;
+    background-color: aliceblue;
+    margin: 10px;
+    vertical-align: middle;
+    text-align: center;
+    font-family: 'twentythree';
+    color: darkblue;
+    font-size: 40px;
+}
+
+#twentythree:hover {
+    color: antiquewhite;
+    text-shadow:  -4px -4px 5px #0000ff, 4px 4px 5px darkblue;
+}
+
+#twentyfour {
+    height: 300px;
+    width:200px;
+    display: inline-block;
+    background-color: aliceblue;
+    margin: -90px 10px 10px 10px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.twentyfour-img {
+    margin-top: 50px;
+    margin-left: -13px;
+}
+
+@keyframes rotateY {
+    from {transform: rotateY(0deg);}
+    to {transform: rotateY(380deg);}
+}
+
+.twentyfour-img:hover {
+    animation: rotateY 2s infinite;
+    filter: saturate(7);
+}
+
+@media only screen and (min-width: 1115px) {
+    #twentyfour {margin: 10px;}
+}
+@media only screen and (max-width: 790px) {
+    #twentyfour {margin: 10px}
+}
+
+/* foot of the page */
+
+footer {
+    background-color: rgba(0,4,129,0.5); 
+    padding: 25px 50px;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+}
