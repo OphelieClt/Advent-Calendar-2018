@@ -343,7 +343,7 @@ a {
 }
 
 .nine-border {
-    border: 3px double darkblue;
+    border: 4px double darkblue;
     margin: 40px;
 }
 
@@ -760,3 +760,4 @@ footer {
     color: white;
     border-radius: 5px;
 }
+
