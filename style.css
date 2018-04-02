@@ -6,7 +6,7 @@
 }
 @font-face {
     font-family: 'one';
-    src: url(font/bernard_condensed.ttf);
+    src: url(font/bernard-condensed.TTF);
 }
 
 @font-face {
@@ -15,71 +15,71 @@
 }
 @font-face {
     font-family: 'four';
-    src: url(font/librebaskerville-bold.ttf)
+    src: url(font/librebaskerville-bold.ttf);
 }
 @font-face {
     font-family: 'five';
-    src: url(font/amaticsc-bold.ttf)
+    src: url(font/amaticsc-bold.ttf);
 }
 @font-face {
     font-family: 'six';
-    src: url(font/kaushanscript-regular.ttf)
+    src: url(font/kaushanscript-regular.ttf);
 }
 @font-face {
     font-family: 'eight';
-    src: url(font/abrilfatface.ttf)
+    src: url(font/abrilfatface.ttf);
 }
 @font-face {
     font-family: 'nine';
-    src: url(font/opensans-cond-light.ttf)
+    src: url(font/opensans-cond-light.ttf);
 }
 @font-face {
     font-family: 'ten';
-    src: url(font/nanumpenscript.ttf)
+    src: url(font/nanumpenscript.ttf);
 }
 @font-face {
     font-family: 'eleven';
-    src: url(font/vollkorn-semibold.ttf)
+    src: url(font/vollkorn-semibold.ttf);
 }
 @font-face {
     font-family: "twelve";
-    src: url(font/high-tide.ttf)
+    src: url(font/high-tide.ttf);
 }
 @font-face {
     font-family: "thirteen";
-    src: url(font/lora-bold.ttf)
+    src: url(font/lora-bold.ttf);
 }
 @font-face {
     font-family: "fourteen";
-    src: url(font/shine-bright.ttf)
+    src: url(font/shine-bright.ttf);
 }
 @font-face {
     font-family: "sixteen";
-    src: url(font/make-magic-happen.ttf)
+    src: url(font/make-magic-happen.ttf);
 }
 @font-face {
     font-family: "seventeen";
-    src: url(font/farewell-angelina.ttf)
+    src: url(font/farewell-angelina.ttf);
 }
 @font-face {
     font-family: "eighteen";
-    src: url(font/thgradecursive.ttf)
+    src: url(font/thgradecursive.ttf);
 }
 @font-face {
     font-family: "twenty";
-    src: url(font/sindbad.ttf)
+    src: url(font/sindbad.ttf);
 }
 @font-face {
     font-family: "twentyone";
-    src: url(font/beauty-and-the-beast.ttf)
+    src: url(font/beauty-and-the-beast.ttf);
 }
 @font-face {
     font-family: "twentytwo";
-    src: url(font/italian-breakfast.ttf)
+    src: url(font/italian-breakfast.ttf);
 }
 @font-face {
     font-family: "twentythree";
-    src: url(font/gabrwffr.ttf)
+    src: url(font/gabriel.TTF);
 }
 
 /* general */
